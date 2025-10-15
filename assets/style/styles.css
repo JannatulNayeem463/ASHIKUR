@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --font-family: "Poppins", sans-serif;
+  --second-family: "PT Sans", sans-serif;
+  --primaryColor:#fc0;
+  --text-color:#353535;
+}
+
+/* common css start */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--font-family);
+}
+
+/* common css end */
+
+
+/* navbar start */
+nav .toggleBtn {
+    border: none;
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    line-height: 48px;
+    border: 2px solid var(--primaryColor);
+    font-size: 20px;
+    color: var(--text-color);
+}
+@media (max-width: 991px) {
+    nav.navbar {
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+
+
+#myMenu ul li a{
+    padding: 0 18px;
+    font-weight: 500;
+    line-height: 200%;
+    font-size: 15px;
+}
+
+#myMenu ul li a.active,
+#myMenu ul li a:hover{
+    border-bottom: 1px solid var(--text-color);
+}
+/* navbar end */
+
+
+/* banner start */
+#banner{
+    padding: 60px 0 144px;
+}
+
+#banner .bannerText h6{
+font-weight: 400;
+font-size: 24px;
+color: var(--text-color);
+}
+#banner .bannerText h2{
+font-weight: 700;
+font-size: 64px;
+padding:20px 0;
+color: var(--text-color);
+}
+#banner .bannerText p{
+font-weight: 400;
+font-size: 20px;
+line-height: 180%;
+color: var(--text-color);
+}
+
+.b {
+
+    padding-top: 40px;
+    display: flex;
+    gap: 15px;
+    
+}
+
+.b1{
+    border-radius: 20px;
+padding: 15px;
+
+background-color: var(--primaryColor);
+font-weight: 600;
+font-size: 18px;
+line-height: 180%;
+color: #fff;
+display: inline-block
+}
+.b2{
+    border-radius: 20px;
+padding: 15px;
+border: 1px solid black ;
+background-color: white;
+font-weight: 600;
+font-size: 18px;
+line-height: 180%;
+color:var(--text-color);
+display: inline-block;
+}
+.banner-icon{
+    padding: 66px 0;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+}
+/* banner And */
+
+/* ABOUT STRAT */
+#about{
+    background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
+}
+
+.about-text h2{
+    font-weight: 700;
+    font-size: 50px;
+    color: #353535;
+    padding-top: 77px;
+}
+.about-text p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 190%;
+    color: #353535;
+    padding: 38px 0;
+}
+.about-text a{
+    background-color: rgb(243, 220, 132);
+    display: inline-block;
+}
+
+.Ellipse{
+    padding: 0  350px  0  ;
+}
+.about-img{
+    padding-top: 30px;
+}
+
+/* ABOUT END */
+/* Card Start */
+#card-section{
+    padding: 151px;
+}
+
+.all-card{
+    display: flex;
+    gap: 32px;
+
+}
+
+.Card{
+    border-radius: 20px;
+    width: 350px;
+    height: 367px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.08);
+    background: #fff;
+    
+}
+.Card h3{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 180%;
+    text-align: center;
+    color: #353535;
+}
+.Card p{
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 190%;
+     text-align: center;
+     color: #7a7a7a;
+}
+.Card img{
+   padding-left: 20%;
+  padding: 40px 140px ;
+
+}
+/* CARD END */
+/* Design start */
+.design-con {
+    border-radius: 30px;
+     width: 1110px;
+     height: 473px;
+     background: linear-gradient(130deg, #fc0 0%, #fff5cb 100%);
+}
+.design-div{
+    display: flex;
+}
+.design-img{
+    padding-top: 18px;
+}
+.design-text{
+    text-align: center;
+    padding-top: 83px;
+}
+.design-text h3{
+    font-weight: 700;
+    font-size: 44px;
+    color: #353535;
+
+}
+.design-text p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 190%;
+    color: #353535;
+    padding: 20px 0;
+}
+
+.design-text a{
+    border: 1px solid #000;
+    border-radius: 20px;
+    width: 171px;
+    height: 66px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 180%;
+    text-align: center;
+    color: #353535;
+    padding: 20px 0;
+}
+.design-btn a {
+    display: inline-block;
+}
+.design-btn {
+    display: flex;
+    gap: 30px;
+}
+
+/* Design end */
+
